@@ -1,0 +1,34 @@
+div {
+    margin-left: 10vw;
+    width: 80vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#jokenpo {
+    width: 35vw;
+    height: 20vh;
+    background-image: url(../imagens/jokenpo.png);
+    background-size: 100% 100%;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+#emBreve {
+    width: 35vw;
+    height: 20vh;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 769px) {
+    #jokenpo { 
+        height: 35vh;
+    }
+
+    #emBreve {
+        height: 35vh;
+    }
+}

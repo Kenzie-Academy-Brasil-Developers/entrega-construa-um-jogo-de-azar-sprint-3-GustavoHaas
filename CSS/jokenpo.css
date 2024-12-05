@@ -1,0 +1,76 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imgComputador {
+    margin-top: 100px;
+    width: 20vw;
+}
+
+.imgPlayer {
+    width: 20vw;
+}
+
+
+#pedra:hover, #papel:hover, #tesoura:hover {
+    cursor: pointer;
+}
+
+#voltar {
+    float: left;
+}
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+
+#computadorSection {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 30vw;
+    margin-right: 5vw;
+}
+
+#playerSection {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 35vw;
+}
+
+#vs {
+    width: 20vw;
+    height: 100px;
+    margin: auto 0px;
+}
+
+.vs {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+}
+
+@media screen and (min-width: 769px) {
+    #imgComputador {
+        width: auto;
+    }
+
+    .imgPlayer {
+        width: auto;
+    }
+
+    #vs {
+        width: 150px;
+    }
+
+    .vs {
+        height: 80vh;
+    }
+}
